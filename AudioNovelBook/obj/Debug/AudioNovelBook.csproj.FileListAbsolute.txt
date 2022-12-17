@@ -1,0 +1,11 @@
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\bin\Debug\AudioNovelBook.exe.config
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\bin\Debug\AudioNovelBook.exe
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\bin\Debug\AudioNovelBook.pdb
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.csproj.AssemblyReference.cache
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.csproj.SuggestedBindingRedirects.cache
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.Form1.resources
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.Properties.Resources.resources
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.csproj.GenerateResource.cache
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.csproj.CoreCompileInputs.cache
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.exe
+C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\obj\Debug\AudioNovelBook.pdb
