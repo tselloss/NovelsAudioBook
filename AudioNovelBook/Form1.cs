@@ -16,8 +16,8 @@ namespace AudioNovelBook
     {
         SpeechSynthesizer speech = new SpeechSynthesizer();
         OleDbConnection connection;
-        public static string dbPath = @"C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\bin\Debug\Database1.mdb";
-        String connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="+dbPath;
+        //public static string dbPath = @"C:\Users\karac\source\repos\AudioNovelBook\AudioNovelBook\bin\Debug\Database1.mdb";
+        String connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Database1.mdb";
         public int ID;
         public Form1()
         {
@@ -48,7 +48,7 @@ namespace AudioNovelBook
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboBoxSelectedItem();
+            comboBoxSelectedItem();            
         }
        
 
@@ -90,6 +90,26 @@ namespace AudioNovelBook
             }
             reader.Close();
             connection.Close();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void novelSWebpageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.paidika-paramythia.gr/fairy-tales-collection/mythoi-toy-aisopoy");
+        }
+
+        private void contactMeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Email info: karachristos.e@outlook.com");
+        }
+
+        private void manualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://unipigr.sharepoint.com/sites/Manual/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FManual%2FShared%20Documents%2FManual%2Epdf&parent=%2Fsites%2FManual%2FShared%20Documents");
         }
     }
 }
